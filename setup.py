@@ -23,10 +23,10 @@ class PyTest(TestCommand):
 
 
 install_requires = [
-    'PyYAML',
-    'wrapt',
+    'PyYAML==3.1.2',
+    'wrapt==1.10.11',
     'six>=1.5',
-    'contextlib2; python_version=="2.7"',
+    'contextlib2==0.5.3; python_version=="2.7"',
     'mock; python_version=="2.7"',
     'yarl; python_version>="3.4"',
 ]
